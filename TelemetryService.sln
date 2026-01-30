@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{26C92D20-E025-4657-8A73-E102F30838C1}"
+	ProjectSection(SolutionItems) = preProject
+		src\docker-compose.yml = src\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryService.Domain", "src\TelemetryService.Domain\TelemetryService.Domain.csproj", "{1A4B01A6-4558-4C6F-BFF8-20FFA17DA1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryService.Application", "src\TelemetryService.Application\TelemetryService.Application.csproj", "{C3753F1A-CBE5-4C30-AC99-A16CEE377EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryService.Infrastructure", "src\TelemetryService.Infrastructure\TelemetryService.Infrastructure.csproj", "{7AA70B76-1358-4239-A381-10839907B6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryService.WebApi", "src\TelemetryService.WebApi\TelemetryService.WebApi.csproj", "{1647D0DE-8F2E-4E54-97D5-3E0234205884}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2AB8DA3D-6365-431B-A5C5-C6C93DF6B16F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryService.Tests", "tests\TelemetryService.Tests\TelemetryService.Tests.csproj", "{FE4D3694-6AA6-43ED-A1C9-05B6EA1ED73E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4B01A6-4558-4C6F-BFF8-20FFA17DA1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4B01A6-4558-4C6F-BFF8-20FFA17DA1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4B01A6-4558-4C6F-BFF8-20FFA17DA1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4B01A6-4558-4C6F-BFF8-20FFA17DA1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3753F1A-CBE5-4C30-AC99-A16CEE377EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3753F1A-CBE5-4C30-AC99-A16CEE377EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3753F1A-CBE5-4C30-AC99-A16CEE377EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3753F1A-CBE5-4C30-AC99-A16CEE377EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA70B76-1358-4239-A381-10839907B6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA70B76-1358-4239-A381-10839907B6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA70B76-1358-4239-A381-10839907B6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA70B76-1358-4239-A381-10839907B6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1647D0DE-8F2E-4E54-97D5-3E0234205884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1647D0DE-8F2E-4E54-97D5-3E0234205884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1647D0DE-8F2E-4E54-97D5-3E0234205884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1647D0DE-8F2E-4E54-97D5-3E0234205884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4D3694-6AA6-43ED-A1C9-05B6EA1ED73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4D3694-6AA6-43ED-A1C9-05B6EA1ED73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4D3694-6AA6-43ED-A1C9-05B6EA1ED73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4D3694-6AA6-43ED-A1C9-05B6EA1ED73E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A4B01A6-4558-4C6F-BFF8-20FFA17DA1D0} = {26C92D20-E025-4657-8A73-E102F30838C1}
+		{C3753F1A-CBE5-4C30-AC99-A16CEE377EDC} = {26C92D20-E025-4657-8A73-E102F30838C1}
+		{7AA70B76-1358-4239-A381-10839907B6E0} = {26C92D20-E025-4657-8A73-E102F30838C1}
+		{1647D0DE-8F2E-4E54-97D5-3E0234205884} = {26C92D20-E025-4657-8A73-E102F30838C1}
+		{FE4D3694-6AA6-43ED-A1C9-05B6EA1ED73E} = {2AB8DA3D-6365-431B-A5C5-C6C93DF6B16F}
+	EndGlobalSection
+EndGlobal
